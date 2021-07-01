@@ -1,0 +1,73 @@
+
+html, body {
+  font-family: arial;
+  font-variant: small-caps;
+}
+
+h1 {
+  text-align: center;
+  margin: 0px auto;
+  font-size: 50px;
+  color: pink;
+  text-shadow: 3px 3px 5px blue;
+}
+
+.container {
+  background-color:
+  width: 50%;
+  text-align: center;
+  margin: 0px auto;
+
+}
+
+#stopwatch {
+  text-align: center;
+  font-size: 70px;
+  font-weight: bold;
+  margin: 0px auto;
+  color: purple;
+}
+
+.buttons {
+  margin: 0px auto;
+}
+
+#startStopButton {
+margin: 0px auto;
+font-variant: small-caps;
+font-size: 20px;
+padding-left: 20px;
+padding-right: 20px;
+cursor: pointer;
+color:purple;
+background-color: pink;
+outline: white;
+border-radius: 30px;
+
+}
+
+#resetButton {
+margin: 0px auto;
+font-variant: small-caps;
+font-size: 20px;
+padding-left: 20px;
+padding-right: 20px;
+cursor: pointer;
+color:purple;
+background-color: pink;
+outline: white;
+border-radius: 30px;
+}
+
+#startStopButton:hover {
+  background-color: yellow;
+}
+
+#resetButton:hover {
+  background-color: yellow;
+}
+
+body {
+
+  background-image: linear-gradient(to right, pink, yellow);
+}
